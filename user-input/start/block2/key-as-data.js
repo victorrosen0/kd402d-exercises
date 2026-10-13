@@ -2,6 +2,8 @@
 // Exercises 5 to 8. This file starts where block 1 ended: a, s and d play three notes.
 // After each exercise: save, click the page, press keys, check the console, and commit.
 
+let test = "testing";
+
 // The instrument: plays one note at a time.
 const synth = new Tone.Synth().toDestination();
 
@@ -21,6 +23,7 @@ function handleKeyDown(event) {
   }
 }
 
+//console.log("c" >= "a");
 document.addEventListener("keydown", handleKeyDown);
 
 // ---------- Exercise 5: keys are note names ----------
