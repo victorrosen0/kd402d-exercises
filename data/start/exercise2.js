@@ -2,6 +2,7 @@
 
 const pitchName = "E";
 let octave = 4;
+octave = octave + 1;
 let fullNote = pitchName + octave;
 console.log("Exercise 2: fullNote is " + fullNote);
 

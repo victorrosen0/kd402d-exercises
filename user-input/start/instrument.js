@@ -54,3 +54,4 @@
 // - map the keys by letter instead: c plays C, d plays D … b plays B
 // - change the notes to a scale you like
 // - a key that changes something else: the length of every note, or the sound
+
